@@ -9,6 +9,7 @@ import Summoner from "../Entity/Boss/Summoner";
 import LivingEntity from "../Entity/Live";
 import ArenaCloser from "../Entity/Misc/ArenaCloser";
 import FallenAC from "../Entity/Misc/Boss/FallenAC";
+import FallenMegaTrapper from "../Entity/Misc/Boss/FallenMegaTrapper";
 import FallenSpike from "../Entity/Misc/Boss/FallenSpike";
 import Dominator from "../Entity/Misc/Dominator";
 import ObjectEntity from "../Entity/Object";
@@ -231,6 +232,7 @@ export const commandCallbacks = {
             ["Guardian", Guardian],
             ["FallenOverlord", FallenOverlord],
             ["FallenBooster", FallenBooster],
+            ["FallenMegaTrapper", FallenMegaTrapper],
             ["FallenAC", FallenAC],
             ["FallenSpike", FallenSpike],
             ["ArenaCloser", ArenaCloser],
